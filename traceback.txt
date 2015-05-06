@@ -1,0 +1,31 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 8, in script
+    init python:
+  File "game/script.rpy", line 9, in <module>
+    import irc.client
+ImportError: No module named pkgutil
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 8, in script
+    init python:
+  File "C:\renpy\renpy-6.99.3-sdk\renpy\ast.py", line 785, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\renpy\renpy-6.99.3-sdk\renpy\python.py", line 1445, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 9, in <module>
+    import irc.client
+  File "C:\renpy\renpy-6.99.3-sdk\lib\pythonlib2.7\irc\client.py", line 67, in <module>
+    from jaraco.itertools import always_iterable
+  File "C:\renpy\renpy-6.99.3-sdk\lib\pythonlib2.7\jaraco\__init__.py", line 1, in <module>
+    __import__("pkg_resources").declare_namespace(__name__)
+  File "C:\renpy\renpy-6.99.3-sdk\lib\pythonlib2.7\pkg_resources\__init__.py", line 30, in <module>
+    import pkgutil
+ImportError: No module named pkgutil
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.99.3.404
+vIRC 0.0
