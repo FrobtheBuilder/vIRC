@@ -1,22 +1,51 @@
-﻿# You can place the script of your game in this file.
-
-# Declare images below this line, using the image statement.
-# eg. image eileen happy = "eileen_happy.png"
-
-# Declare characters used by this game.
-
-init python:
+﻿init python:
    import irc.client
+   import time
+   #import socks
+   import json
+   import os
 
+   for fname in os.listdir(config.gamedir + '/img'):
+      if fname.endswith(('.jpg', '.png')):
+         tag = fname[:-4]
+         fname =  'img/' + fname
+   renpy.image(tag, fname)
 
+   def on_pubmsg(connection, event):
+         renpy.call("msg", str(event.source), event.arguments[0])
 
-define e = Character('Eileen', color="#c8ffc8")
+   def event_loop(st, at):
+         reactor.process_once(0.2)
+         return Null(), 0.5
 
+#image anon = im.Scale("anon.png", 250, 400)
+
+label msg(sender="", message=""):
+   show anon
+   "[sender]" "[message]"
+   call msg(sender, message)
+
+image loop = DynamicDisplayable(event_loop)
 
 # The game starts here.
 label start:
    python:
-      e("You've created a new Ren'Py game.")
-   
-   e "Once you add a story, pictures, and music, you can release it to the world!"
-   return
+      #socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, 'localhost', 666)
+      #socks.wrapmodule(irc.client)
+      reactor = irc.client.Reactor()
+      c = reactor.server().connect(
+            server,
+            port,
+            nick,
+            password=passwd,
+            connect_factory=irc.connection.Factory(),
+         )
+      kkk = renpy.get_widget("main_menu", "innn")
+
+      reactor.add_global_handler("pubmsg", on_pubmsg)
+
+   show loop
+
+label base:
+   "silence" "..."
+   jump base

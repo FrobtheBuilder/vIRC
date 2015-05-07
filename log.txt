@@ -1,4 +1,4 @@
-Tue May 05 19:54:17 2015
+Thu May 07 01:11:33 2015
 Windows-7-6.1.7601-SP1
 Ren'Py 6.99.3.404
 vIRC 0.0
@@ -363,8 +363,8 @@ Texture testing:
 Performance test:
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.008000 seconds.
-- Frame drawn at 0.013000 seconds.
-- Frame drawn at 0.015000 seconds.
-- Frame drawn at 0.033000 seconds.
-- 0.033000 seconds to render 5 frames.
+- Frame drawn at 0.050000 seconds.
+- Frame drawn at 0.050000 seconds.
+- Frame drawn at 0.050000 seconds.
+- Frame drawn at 0.080000 seconds.
+- 0.080000 seconds to render 5 frames.

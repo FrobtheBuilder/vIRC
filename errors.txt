@@ -2,6 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 9: Tab characters are not allowed in Ren'Py scripts.
+File "game/script.rpy", line 67: expected statement.
+    add Looper()
+              ^
 
 Ren'Py Version: Ren'Py 6.99.3.404
