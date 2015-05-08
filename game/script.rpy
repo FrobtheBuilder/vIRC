@@ -1,7 +1,8 @@
 ﻿init python:
    import irc.client
+   import irc.connection
    import time
-   #import socks
+   import socks
    import json
    import os
 
@@ -18,6 +19,8 @@
          reactor.process_once(0.2)
          return Null(), 0.5
 
+   print(repr(dir(Image("anon.png"))))
+
 #image anon = im.Scale("anon.png", 250, 400)
 
 label msg(sender="", message=""):
@@ -27,21 +30,19 @@ label msg(sender="", message=""):
 
 image loop = DynamicDisplayable(event_loop)
 
-# The game starts here.
 label start:
    python:
       #socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, 'localhost', 666)
       #socks.wrapmodule(irc.client)
       reactor = irc.client.Reactor()
       c = reactor.server().connect(
-            server,
-            port,
-            nick,
-            password=passwd,
-            connect_factory=irc.connection.Factory(),
+            ircconf['server'],
+            ircconf['port'],
+            ircconf['nick'],
+            password=ircconf['passwd'],
+            connect_factory=irc.connection.Factory()
          )
-      kkk = renpy.get_widget("main_menu", "innn")
-
+      
       reactor.add_global_handler("pubmsg", on_pubmsg)
 
    show loop
