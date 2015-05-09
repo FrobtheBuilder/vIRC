@@ -5,7 +5,6 @@
    import os, sys
    sys.path.append(os.path.join(config.gamedir, "lib")) #set up path for main to use
    import main
-
    main.initialize(renpy)
 
 label msg(sender="", message=""):

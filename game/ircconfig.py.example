@@ -1,1 +1,7 @@
-ircconf = {'server': 'servarr', 'port': 6670, 'nick': 'vIRC', 'passwd': 'ayy-lmao'}
+ircconf = { 'server': 'servarr',
+            'port': 6670,
+            'nick': 'vIRC',
+            'passwd': 'ayy-lmao',
+            'socks': { 'enabled': False,
+                       'host': 'localhost',
+                       'port': 666}}

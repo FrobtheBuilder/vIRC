@@ -3,7 +3,8 @@ import sys
 import irc.client
 import irc.connection
 from ircconfig import ircconf
-#import socks
+if ircconf['socks']['enabled']:
+   import socks
 
 #initialized by initialize()
 renpy = None
@@ -41,6 +42,10 @@ def start():
    global reactor
    global loop
 
+   if ircconf['socks']['enabled']:
+      socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, ircconf['socks']['host'], ircconf['socks']['port'])
+      socks.wrapmodule(irc.client)
+   
    reactor = irc.client.Reactor()
    c = reactor.server().connect(
          ircconf['server'],
@@ -52,18 +57,3 @@ def start():
    reactor.add_global_handler("pubmsg", on_pubmsg)
    loop = renpy.display.layout.DynamicDisplayable(event_loop, reactor)
    renpy.show("loop", what=loop)
-
-def get_reactor():
-   #socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, 'localhost', 666)
-   #socks.wrapmodule(irc.client)
-   global reactor
-
-   reactor = irc.client.Reactor()
-   c = reactor.server().connect(
-         ircconf['server'],
-         ircconf['port'],
-         ircconf['nick'],
-         password=ircconf['passwd'],
-         connect_factory=irc.connection.Factory()
-      )
-   return reactor
