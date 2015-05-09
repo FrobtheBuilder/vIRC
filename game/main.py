@@ -1,7 +1,5 @@
 import os
 import sys
-#sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
-#sys.path.append(os.path.join(config.gamedir, "lib"))
 import irc.client
 import irc.connection
 from ircconfig import ircconf
@@ -32,8 +30,6 @@ def initialize(r, c):
    
 
 def start():
-   
-
    pass
 
 def get_reactor():
