@@ -1,0 +1,11 @@
+..\tempora.py
+..\tempora.pyc
+.\
+dependency_links.txt
+entry_points.txt
+PKG-INFO
+SOURCES.txt
+top_level.txt
+..\..\..\bin\calc-prorate-script.py
+..\..\..\bin\calc-prorate.exe
+..\..\..\bin\calc-prorate.exe.manifest

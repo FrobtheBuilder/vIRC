@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: jaraco.collections
+Version: 1.1
+Summary: jaraco.collections
+Home-page: https://bitbucket.org/jaraco/jaraco.collections
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: MIT
+Description: jaraco.collections
+        ==================
+        
+        Models and classes to supplement the stdlib 'collections' module.
+        
+        RangeMap
+        --------
+        
+        A dictionary-like object that maps a range of values to a given value.
+        
+        
+        1.1
+        ===
+        
+        Conditionally require setup requirements.
+        
+        1.0
+        ===
+        
+        Initial functionality taken from jaraco.util 10.8.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3

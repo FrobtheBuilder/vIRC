@@ -1,19 +1,33 @@
+.git/ matches **/.** (None).
+.gitignore matches **/.** (None).
 errors.txt matches errors.txt (None).
 game/ matches ** ([u'all']).
 game/bytecode.rpyb matches ** ([u'all']).
+game/customscreens.rpy matches ** ([u'all']).
+game/customscreens.rpyc matches ** ([u'all']).
+game/img/ matches ** ([u'all']).
+game/img/anon.png matches ** ([u'all']).
+game/ircconfig.rpy matches ** ([u'all']).
+game/ircconfig.rpy.example matches ** ([u'all']).
+game/ircconfig.rpyc matches ** ([u'all']).
 game/lib/ matches ** ([u'all']).
+game/lib/six.py matches ** ([u'all']).
+game/lib/six.pyc matches ** ([u'all']).
+game/lib/six.pyo matches ** ([u'all']).
+game/main.py matches ** ([u'all']).
 game/options.rpy matches ** ([u'all']).
-game/options.rpy.bak matches **.bak (None).
 game/options.rpyc matches ** ([u'all']).
 game/saves/ matches game/saves/ (None).
 game/screens.rpy matches ** ([u'all']).
-game/screens.rpy.bak matches **.bak (None).
 game/screens.rpyc matches ** ([u'all']).
 game/script.rpy matches ** ([u'all']).
+game/script.rpy.bak matches **.bak (None).
 game/script.rpyc matches ** ([u'all']).
 log.txt matches log.txt (None).
 project.json matches project.json (None).
+pythonlib2.7.zip matches ** ([u'all']).
 README.html matches ** ([u'all']).
+readme.md matches ** ([u'all']).
 tmp/ matches tmp/ (None).
 traceback.txt matches traceback.txt (None).
 doc/ doesn't match anything.
@@ -683,6 +697,7 @@ lib/pythonlib2.7/io.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/ matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/bot.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/bot.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/irc/bot.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/buffer.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/buffer.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/irc/buffer.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -697,6 +712,7 @@ lib/pythonlib2.7/irc/ctcp.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/irc/ctcp.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/dict.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/dict.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/irc/dict.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/events.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/events.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/irc/events.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -710,6 +726,7 @@ lib/pythonlib2.7/irc/logging.py matches /lib/** ([u'windows', u'linux', u'mac'])
 lib/pythonlib2.7/irc/logging.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/irc/modes.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/modes.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/irc/modes.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/rfc.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/rfc.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/irc/rfc2812.txt matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -720,6 +737,7 @@ lib/pythonlib2.7/irc/server.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/server.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/irc/strings.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/strings.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/irc/strings.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/tests/ matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/tests/test_bot.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/irc/tests/test_bot.pyc matches **/*.pyc (None).
@@ -742,6 +760,7 @@ lib/pythonlib2.7/irc-12.1.4-py2.7.egg-info/top_level.txt matches /lib/** ([u'win
 lib/pythonlib2.7/jaraco/ matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/apt.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/apt.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/jaraco/apt.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/classes/ matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/classes/ancestry.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/classes/ancestry.pyc matches **/*.pyc (None).
@@ -749,21 +768,28 @@ lib/pythonlib2.7/jaraco/classes/meta.py matches /lib/** ([u'windows', u'linux', 
 lib/pythonlib2.7/jaraco/classes/meta.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/jaraco/classes/properties.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/classes/properties.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/jaraco/classes/properties.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/classes/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/classes/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/jaraco/classes/__init__.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/collections.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/collections.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/jaraco/collections.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/context.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/context.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/jaraco/context.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/functools.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/functools.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/jaraco/functools.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/itertools.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/itertools.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/jaraco/itertools.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/logging.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/logging.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/jaraco/logging.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/text.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/text.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/jaraco/text.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/jaraco/__init__.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/jaraco/__init__.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -868,6 +894,17 @@ lib/pythonlib2.7/more_itertools-2.2-py2.7.egg-info/installed-files.txt matches /
 lib/pythonlib2.7/more_itertools-2.2-py2.7.egg-info/PKG-INFO matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/more_itertools-2.2-py2.7.egg-info/SOURCES.txt matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/more_itertools-2.2-py2.7.egg-info/top_level.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/moves/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/moves/_moves.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/moves/_moves.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/moves/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/moves/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/moves-0.1-py2.7.egg-info/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/moves-0.1-py2.7.egg-info/dependency_links.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/moves-0.1-py2.7.egg-info/installed-files.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/moves-0.1-py2.7.egg-info/PKG-INFO matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/moves-0.1-py2.7.egg-info/SOURCES.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/moves-0.1-py2.7.egg-info/top_level.txt matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/ntpath.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/nturl2path.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/numbers.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -877,6 +914,32 @@ lib/pythonlib2.7/pickle.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/pkgutil.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/pkgutil.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/pkg_resources/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/tests/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/tests/test_pkg_resources.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/tests/test_pkg_resources.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/pkg_resources/pkg_resources/tests/test_resources.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/tests/test_resources.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/pkg_resources/pkg_resources/tests/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/tests/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/specifiers.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/specifiers.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/version.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/version.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/_compat.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/_compat.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/_structures.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/_structures.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/__about__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/__about__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/packaging/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/_vendor/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/pkg_resources/pkg_resources/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/pkg_resources/pkg_resources/__init__.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/pkg_resources/tests/ matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/pkg_resources/tests/test_pkg_resources.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/pkg_resources/tests/test_pkg_resources.pyc matches **/*.pyc (None).
@@ -1049,6 +1112,148 @@ lib/pythonlib2.7/setuptools/sandbox.py matches /lib/** ([u'windows', u'linux', u
 lib/pythonlib2.7/setuptools/sandbox.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/setuptools/script (dev).tmpl matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/setuptools/script.tmpl matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/archive_util.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/archive_util.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/cli-32.exe matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/cli-64.exe matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/cli-arm-32.exe matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/cli.exe matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/alias.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/alias.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/bdist_egg.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/bdist_egg.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/bdist_rpm.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/bdist_rpm.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/bdist_wininst.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/bdist_wininst.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/build_ext.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/build_ext.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/build_py.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/build_py.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/develop.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/develop.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/easy_install.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/easy_install.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/egg_info.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/egg_info.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/install.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/install.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/install_egg_info.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/install_egg_info.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/install_lib.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/install_lib.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/install_scripts.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/install_scripts.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/launcher manifest.xml matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/register.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/register.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/rotate.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/rotate.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/saveopts.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/saveopts.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/sdist.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/sdist.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/setopt.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/setopt.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/test.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/test.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/upload_docs.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/upload_docs.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/command/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/command/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/compat.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/compat.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/depends.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/depends.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/dist.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/dist.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/extension.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/extension.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/gui-32.exe matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/gui-64.exe matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/gui-arm-32.exe matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/gui.exe matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/lib2to3_ex.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/lib2to3_ex.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/msvc9_support.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/msvc9_support.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/package_index.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/package_index.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/py26compat.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/py26compat.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/py27compat.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/py27compat.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/py31compat.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/py31compat.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/sandbox.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/sandbox.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/script (dev).tmpl matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/script.tmpl matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/site-patch.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/site-patch.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/ssl_support.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/ssl_support.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/contexts.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/contexts.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/environment.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/environment.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/fixtures.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/fixtures.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/py26compat.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/py26compat.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/script-with-bom.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/script-with-bom.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/server.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/server.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_bdist_egg.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_bdist_egg.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_build_ext.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_build_ext.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_develop.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_develop.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_dist_info.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_dist_info.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_easy_install.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_easy_install.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_egg_info.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_egg_info.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_find_packages.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_find_packages.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_integration.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_integration.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_markerlib.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_markerlib.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_msvc9compiler.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_msvc9compiler.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_packageindex.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_packageindex.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_sandbox.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_sandbox.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_sdist.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_sdist.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_test.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_test.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_upload_docs.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_upload_docs.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_windows_wrappers.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/test_windows_wrappers.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/textwrap.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/textwrap.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/tests/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/tests/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/unicode_utils.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/unicode_utils.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/utils.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/utils.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/version.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/version.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/windows_support.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/windows_support.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/setuptools/setuptools/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools/setuptools/__init__.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/setuptools/site-patch.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/setuptools/site-patch.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/setuptools/ssl_support.py matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -1119,6 +1324,16 @@ lib/pythonlib2.7/setuptools-15.2.dist-info/entry_points.txt matches /lib/** ([u'
 lib/pythonlib2.7/setuptools-15.2.dist-info/METADATA matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/setuptools-15.2.dist-info/metadata.json matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/setuptools-15.2.dist-info/RECORD matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools-15.2.dist-info/setuptools-15.2.dist-info/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools-15.2.dist-info/setuptools-15.2.dist-info/dependency_links.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools-15.2.dist-info/setuptools-15.2.dist-info/DESCRIPTION.rst matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools-15.2.dist-info/setuptools-15.2.dist-info/entry_points.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools-15.2.dist-info/setuptools-15.2.dist-info/METADATA matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools-15.2.dist-info/setuptools-15.2.dist-info/metadata.json matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools-15.2.dist-info/setuptools-15.2.dist-info/RECORD matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools-15.2.dist-info/setuptools-15.2.dist-info/top_level.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools-15.2.dist-info/setuptools-15.2.dist-info/WHEEL matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/setuptools-15.2.dist-info/setuptools-15.2.dist-info/zip-safe matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/setuptools-15.2.dist-info/top_level.txt matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/setuptools-15.2.dist-info/WHEEL matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/setuptools-15.2.dist-info/zip-safe matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -1131,13 +1346,14 @@ lib/pythonlib2.7/six-1.9.0.dist-info/metadata.json matches /lib/** ([u'windows',
 lib/pythonlib2.7/six-1.9.0.dist-info/RECORD matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/six-1.9.0.dist-info/top_level.txt matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/six-1.9.0.dist-info/WHEEL matches /lib/** ([u'windows', u'linux', u'mac']).
-lib/pythonlib2.7/six.py matches /lib/** ([u'windows', u'linux', u'mac']).
-lib/pythonlib2.7/six.pyc matches **/*.pyc (None).
-lib/pythonlib2.7/six.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/socket.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/socks.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/socks.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/sre_compile.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/sre_constants.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/sre_parse.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/ssl.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/ssl.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/stat.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/StdSuites/ matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/StdSuites/AppleScript_Suite.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -1167,6 +1383,7 @@ lib/pythonlib2.7/tempora-1.3-py2.7.egg-info/SOURCES.txt matches /lib/** ([u'wind
 lib/pythonlib2.7/tempora-1.3-py2.7.egg-info/top_level.txt matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/tempora.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/tempora.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/tempora.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/textwrap.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/threading.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/token.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -1200,8 +1417,23 @@ lib/pythonlib2.7/yg/lockfile/test/__init__.py matches /lib/** ([u'windows', u'li
 lib/pythonlib2.7/yg/lockfile/test/__init__.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/yg/lockfile/timing.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/yg/lockfile/timing.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/yg/lockfile/timing.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/yg/lockfile/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/yg/lockfile/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/yg/lockfile/__init__.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg/yg/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg/yg/lockfile/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg/yg/lockfile/test/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg/yg/lockfile/test/test_lockfile.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg/yg/lockfile/test/test_lockfile.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/yg/yg/lockfile/test/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg/yg/lockfile/test/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/yg/yg/lockfile/timing.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg/yg/lockfile/timing.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/yg/yg/lockfile/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg/yg/lockfile/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/yg/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg/__init__.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/yg.lockfile-2.0-py2.7-nspkg.pth matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/ matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/dependency_links.txt matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -1211,6 +1443,15 @@ lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/PKG-INFO matches /lib/** ([u'win
 lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/requires.txt matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/SOURCES.txt matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/top_level.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/yg.lockfile-2.0-py2.7.egg-info/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/yg.lockfile-2.0-py2.7.egg-info/dependency_links.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/yg.lockfile-2.0-py2.7.egg-info/installed-files.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/yg.lockfile-2.0-py2.7.egg-info/namespace_packages.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/yg.lockfile-2.0-py2.7.egg-info/PKG-INFO matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/yg.lockfile-2.0-py2.7.egg-info/requires.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/yg.lockfile-2.0-py2.7.egg-info/SOURCES.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/yg.lockfile-2.0-py2.7.egg-info/top_level.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/yg.lockfile-2.0-py2.7.egg-info/zip-safe matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/yg.lockfile-2.0-py2.7.egg-info/zip-safe matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/zc/ matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/zc/lockfile/ matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -1219,6 +1460,16 @@ lib/pythonlib2.7/zc/lockfile/tests.py matches /lib/** ([u'windows', u'linux', u'
 lib/pythonlib2.7/zc/lockfile/tests.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/zc/lockfile/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/zc/lockfile/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/zc/lockfile/__init__.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc/zc/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc/zc/lockfile/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc/zc/lockfile/README.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc/zc/lockfile/tests.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc/zc/lockfile/tests.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/zc/zc/lockfile/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc/zc/lockfile/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/zc/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc/__init__.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7-nspkg.pth matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/ matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/dependency_links.txt matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -1229,6 +1480,15 @@ lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/PKG-INFO matches /lib/** ([u'w
 lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/requires.txt matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/SOURCES.txt matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/top_level.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/zc.lockfile-1.1.0-py2.7.egg-info/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/zc.lockfile-1.1.0-py2.7.egg-info/dependency_links.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/zc.lockfile-1.1.0-py2.7.egg-info/installed-files.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/zc.lockfile-1.1.0-py2.7.egg-info/namespace_packages.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/zc.lockfile-1.1.0-py2.7.egg-info/not-zip-safe matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/zc.lockfile-1.1.0-py2.7.egg-info/PKG-INFO matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/zc.lockfile-1.1.0-py2.7.egg-info/requires.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/zc.lockfile-1.1.0-py2.7.egg-info/SOURCES.txt matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/zc.lockfile-1.1.0-py2.7.egg-info/zc.lockfile-1.1.0-py2.7.egg-info/top_level.txt matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/zipfile.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/_abcoll.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/_builtinSuites/ matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -1239,6 +1499,13 @@ lib/pythonlib2.7/_markerlib/ matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/_markerlib/markers.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/_markerlib/markers.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/_markerlib/markers.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/_markerlib/_markerlib/ matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/_markerlib/_markerlib/markers.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/_markerlib/_markerlib/markers.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/_markerlib/_markerlib/markers.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/_markerlib/_markerlib/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
+lib/pythonlib2.7/_markerlib/_markerlib/__init__.pyc matches **/*.pyc (None).
+lib/pythonlib2.7/_markerlib/_markerlib/__init__.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/_markerlib/__init__.py matches /lib/** ([u'windows', u'linux', u'mac']).
 lib/pythonlib2.7/_markerlib/__init__.pyc matches **/*.pyc (None).
 lib/pythonlib2.7/_markerlib/__init__.pyo matches /lib/** ([u'windows', u'linux', u'mac']).
@@ -1637,6 +1904,7 @@ renpy/angle/gltexture.pyx matches renpy/** ([u'renpy']).
 renpy/angle/__init__.py matches renpy/** ([u'renpy']).
 renpy/angle/__init__.pyo matches renpy/** ([u'renpy']).
 renpy/arguments.py matches renpy/** ([u'renpy']).
+renpy/arguments.pyc matches **/*.pyc (None).
 renpy/arguments.pyo matches renpy/** ([u'renpy']).
 renpy/ast.py matches renpy/** ([u'renpy']).
 renpy/ast.pyo matches renpy/** ([u'renpy']).
@@ -1656,6 +1924,7 @@ renpy/audio/sound.pyo matches renpy/** ([u'renpy']).
 renpy/audio/__init__.py matches renpy/** ([u'renpy']).
 renpy/audio/__init__.pyo matches renpy/** ([u'renpy']).
 renpy/bootstrap.py matches renpy/** ([u'renpy']).
+renpy/bootstrap.pyc matches **/*.pyc (None).
 renpy/bootstrap.pyo matches renpy/** ([u'renpy']).
 renpy/character.py matches renpy/** ([u'renpy']).
 renpy/character.pyo matches renpy/** ([u'renpy']).
@@ -2035,6 +2304,7 @@ renpy/display/pgrender.pyo matches renpy/** ([u'renpy']).
 renpy/display/predict.py matches renpy/** ([u'renpy']).
 renpy/display/predict.pyo matches renpy/** ([u'renpy']).
 renpy/display/presplash.py matches renpy/** ([u'renpy']).
+renpy/display/presplash.pyc matches **/*.pyc (None).
 renpy/display/presplash.pyo matches renpy/** ([u'renpy']).
 renpy/display/render.pxd matches renpy/** ([u'renpy']).
 renpy/display/render.pyx matches renpy/** ([u'renpy']).
@@ -2051,6 +2321,7 @@ renpy/display/tts.pyo matches renpy/** ([u'renpy']).
 renpy/display/video.py matches renpy/** ([u'renpy']).
 renpy/display/video.pyo matches renpy/** ([u'renpy']).
 renpy/display/__init__.py matches renpy/** ([u'renpy']).
+renpy/display/__init__.pyc matches **/*.pyc (None).
 renpy/display/__init__.pyo matches renpy/** ([u'renpy']).
 renpy/dump.py matches renpy/** ([u'renpy']).
 renpy/dump.pyo matches renpy/** ([u'renpy']).
@@ -2059,6 +2330,7 @@ renpy/easy.pyo matches renpy/** ([u'renpy']).
 renpy/editor.py matches renpy/** ([u'renpy']).
 renpy/editor.pyo matches renpy/** ([u'renpy']).
 renpy/error.py matches renpy/** ([u'renpy']).
+renpy/error.pyc matches **/*.pyc (None).
 renpy/error.pyo matches renpy/** ([u'renpy']).
 renpy/execution.py matches renpy/** ([u'renpy']).
 renpy/execution.pyo matches renpy/** ([u'renpy']).
@@ -2091,6 +2363,7 @@ renpy/loader.pyo matches renpy/** ([u'renpy']).
 renpy/loadsave.py matches renpy/** ([u'renpy']).
 renpy/loadsave.pyo matches renpy/** ([u'renpy']).
 renpy/log.py matches renpy/** ([u'renpy']).
+renpy/log.pyc matches **/*.pyc (None).
 renpy/log.pyo matches renpy/** ([u'renpy']).
 renpy/main.py matches renpy/** ([u'renpy']).
 renpy/main.pyo matches renpy/** ([u'renpy']).
@@ -2157,10 +2430,12 @@ renpy/translation.pyo matches renpy/** ([u'renpy']).
 renpy/ui.py matches renpy/** ([u'renpy']).
 renpy/ui.pyo matches renpy/** ([u'renpy']).
 renpy/vc_version.py matches renpy/** ([u'renpy']).
+renpy/vc_version.pyc matches **/*.pyc (None).
 renpy/vc_version.pyo matches renpy/** ([u'renpy']).
 renpy/warp.py matches renpy/** ([u'renpy']).
 renpy/warp.pyo matches renpy/** ([u'renpy']).
 renpy/__init__.py matches renpy/** ([u'renpy']).
+renpy/__init__.pyc matches **/*.pyc (None).
 renpy/__init__.pyo matches renpy/** ([u'renpy']).
 renpy.app/ doesn't match anything.
 renpy.app/ matches None (None).

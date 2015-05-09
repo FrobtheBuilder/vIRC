@@ -1,0 +1,13 @@
+.hgtags
+CHANGES.txt
+README.txt
+setup.cfg
+setup.py
+jaraco/__init__.py
+jaraco/context.py
+jaraco.context.egg-info/PKG-INFO
+jaraco.context.egg-info/SOURCES.txt
+jaraco.context.egg-info/dependency_links.txt
+jaraco.context.egg-info/namespace_packages.txt
+jaraco.context.egg-info/requires.txt
+jaraco.context.egg-info/top_level.txt

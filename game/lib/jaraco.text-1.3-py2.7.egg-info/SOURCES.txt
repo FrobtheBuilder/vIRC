@@ -1,0 +1,16 @@
+.hgignore
+.hgtags
+CHANGES.txt
+README.txt
+pytest.ini
+setup.cfg
+setup.py
+docs/conf.py
+docs/index.rst
+jaraco/__init__.py
+jaraco/text.py
+jaraco.text.egg-info/PKG-INFO
+jaraco.text.egg-info/SOURCES.txt
+jaraco.text.egg-info/dependency_links.txt
+jaraco.text.egg-info/requires.txt
+jaraco.text.egg-info/top_level.txt

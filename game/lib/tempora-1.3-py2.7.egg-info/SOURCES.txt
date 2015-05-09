@@ -1,0 +1,16 @@
+.hgignore
+.hgtags
+CHANGES.txt
+README.txt
+pytest.ini
+setup.cfg
+setup.py
+tempora.py
+docs/conf.py
+docs/history.rst
+docs/index.rst
+tempora.egg-info/PKG-INFO
+tempora.egg-info/SOURCES.txt
+tempora.egg-info/dependency_links.txt
+tempora.egg-info/entry_points.txt
+tempora.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+..\jaraco\text.py
+..\jaraco\__init__.py
+..\jaraco\text.pyc
+..\jaraco\__init__.pyc
+.\
+dependency_links.txt
+PKG-INFO
+requires.txt
+SOURCES.txt
+top_level.txt

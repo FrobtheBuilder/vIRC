@@ -1,0 +1,10 @@
+..\jaraco\context.py
+..\jaraco\context.pyc
+.\
+dependency_links.txt
+namespace_packages.txt
+PKG-INFO
+requires.txt
+SOURCES.txt
+top_level.txt
+..\jaraco.context-1.3-py2.7-nspkg.pth

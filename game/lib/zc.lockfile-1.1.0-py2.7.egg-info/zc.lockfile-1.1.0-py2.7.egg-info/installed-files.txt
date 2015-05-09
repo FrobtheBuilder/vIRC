@@ -1,0 +1,14 @@
+..\zc\lockfile\tests.py
+..\zc\lockfile\__init__.py
+..\zc\lockfile\README.txt
+..\zc\lockfile\tests.pyc
+..\zc\lockfile\__init__.pyc
+.\
+dependency_links.txt
+namespace_packages.txt
+not-zip-safe
+PKG-INFO
+requires.txt
+SOURCES.txt
+top_level.txt
+..\zc.lockfile-1.1.0-py2.7-nspkg.pth

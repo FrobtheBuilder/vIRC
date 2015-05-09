@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: yg.lockfile
+Version: 2.0
+Summary: Lockfile object with timeouts and context manager
+Home-page: https://bitbucket.org/jaraco/yg.lockfile
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: MIT
+Description: yg.lockfile
+        ===========
+        
+        A LockFile class that implements a context manager with timeouts on top of
+        `zc.lockfile`, an excellent, cross-platorm implementation of file locking.
+        
+        Usage
+        -----
+        
+        Example usage::
+        
+            import yg.lockfile
+            try:
+            	with yg.lockfile.LockFile('/tmp/lockfile', timeout=900):
+            		protected_operation()
+            except yg.lockfile.LockFileTimeout:
+            	handle_unable_to_lock()
+        
+        
+        2.0
+        ===
+        
+        Dropped support for Python 2.6.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3

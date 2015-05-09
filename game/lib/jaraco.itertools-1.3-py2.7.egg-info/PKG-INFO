@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: jaraco.itertools
+Version: 1.3
+Summary: jaraco.itertools
+Home-page: https://bitbucket.org/jaraco/jaraco.itertools
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: MIT
+Description: jaraco.itertools
+        ================
+        
+        
+        1.3
+        ===
+        
+        * Add ``apply`` to apply a function to an iterable, but yield the
+          original items.
+        
+        1.1
+        ===
+        
+        * Update ``Count`` object to support comparison for equality and accept
+          None to mean explicitly Infinity. See the docs for details.
+        * Fixed Python 3 issues on ``Counter`` object. Added docstrings.
+        * Added ``Counter.count`` attribute.
+        * ``Counter.GetCount`` is now deprecated. Use ``.count`` instead.
+        
+        1.0
+        ===
+        
+        Initial release based on jaraco.util 10.7.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3

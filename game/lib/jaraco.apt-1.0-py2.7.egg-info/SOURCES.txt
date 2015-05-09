@@ -1,0 +1,13 @@
+.hgtags
+CHANGES.txt
+README.txt
+setup.cfg
+setup.py
+jaraco/__init__.py
+jaraco/apt.py
+jaraco.apt.egg-info/PKG-INFO
+jaraco.apt.egg-info/SOURCES.txt
+jaraco.apt.egg-info/dependency_links.txt
+jaraco.apt.egg-info/namespace_packages.txt
+jaraco.apt.egg-info/requires.txt
+jaraco.apt.egg-info/top_level.txt

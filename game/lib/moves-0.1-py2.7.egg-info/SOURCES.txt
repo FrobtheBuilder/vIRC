@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+moves/__init__.py
+moves/_moves.py
+moves.egg-info/PKG-INFO
+moves.egg-info/SOURCES.txt
+moves.egg-info/dependency_links.txt
+moves.egg-info/top_level.txt

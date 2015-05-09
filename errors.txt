@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 22: is not terminated with a newline. (Check strings and parenthesis.)
-       print(repr(dir(Image("anon.png")))
+File "game/script.rpy", line 8: invalid syntax
+    import Virc from main
+                    ^
+    
 
 Ren'Py Version: Ren'Py 6.99.3.404

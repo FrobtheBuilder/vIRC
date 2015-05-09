@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: jaraco.classes
+Version: 1.2
+Summary: jaraco.classes
+Home-page: https://bitbucket.org/jaraco/jaraco.classes
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: MIT
+Description: jaraco.classes
+        ==============
+        
+        
+        1.2
+        ===
+        
+        Limit dependencies in setup_requires.
+        
+        1.1
+        ===
+        
+        Added ``properties`` module from jaraco.util 10.8.
+        
+        1.0
+        ===
+        
+        Initial release based on jaraco.util 10.8.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3

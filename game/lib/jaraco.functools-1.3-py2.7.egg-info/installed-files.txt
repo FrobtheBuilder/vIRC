@@ -1,0 +1,9 @@
+..\jaraco\functools.py
+..\jaraco\functools.pyc
+.\
+dependency_links.txt
+namespace_packages.txt
+PKG-INFO
+SOURCES.txt
+top_level.txt
+..\jaraco.functools-1.3-py2.7-nspkg.pth

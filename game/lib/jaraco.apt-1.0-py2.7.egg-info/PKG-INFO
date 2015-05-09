@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: jaraco.apt
+Version: 1.0
+Summary: jaraco.apt
+Home-page: https://bitbucket.org/jaraco/jaraco.apt
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: UNKNOWN
+Description: jaraco.apt
+        ==========
+        
+        Support module for `Debian APT <https://wiki.debian.org/Apt>`_.
+        
+        
+        
+Platform: UNKNOWN

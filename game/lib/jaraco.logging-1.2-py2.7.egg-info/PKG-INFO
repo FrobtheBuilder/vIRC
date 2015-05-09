@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: jaraco.logging
+Version: 1.2
+Summary: jaraco.logging
+Home-page: https://bitbucket.org/jaraco/jaraco.logging
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: UNKNOWN
+Description: jaraco.logging
+        ==============
+        
+        `Documentation <https://pythonhosted.org/jaraco.logging>`_
+        
+        Additional facilities to supplement Python's stdlib logging module.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3

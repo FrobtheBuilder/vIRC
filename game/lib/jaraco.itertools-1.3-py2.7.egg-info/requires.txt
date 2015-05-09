@@ -1,0 +1,3 @@
+six
+more_itertools
+inflect
