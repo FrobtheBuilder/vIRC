@@ -1,5 +1,6 @@
 *.rpyc
+*.pyc
 *.bak
-ircconfig.rpy
+ircconfig.py
 traceback.txt
 log.txt

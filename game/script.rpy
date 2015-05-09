@@ -1,18 +1,11 @@
 ﻿init python:
    
    import time
-   #import socks
    import json
    import os, sys
+   sys.path.append(os.path.join(config.gamedir, "lib")) #set up path for main to use
    import main
 
-   #v = main.Virc(renpy, config)
-   #v.initialize()
-   sys.path.append(os.path.join(config.gamedir, "lib"))
-
-   import irc.client
-   import irc.connection
-   
    main.initialize(renpy, config)
 
 
@@ -34,18 +27,8 @@ image loop = DynamicDisplayable(event_loop)
 
 label start:
    python:
-      #socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, 'localhost', 666)
-      #socks.wrapmodule(irc.client)
-      #v.start()
-      reactor = irc.client.Reactor()
-      c = reactor.server().connect(
-            ircconf['server'],
-            ircconf['port'],
-            ircconf['nick'],
-            password=ircconf['passwd'],
-            connect_factory=irc.connection.Factory()
-         )
       
+      reactor = main.get_reactor()
       reactor.add_global_handler("pubmsg", on_pubmsg)
 
    show loop
