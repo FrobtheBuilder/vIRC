@@ -3,6 +3,8 @@ vIRC
 
 A visual novel styled IRC client with python IRC and ren'py.
 
+![screenshot](http://a.pomf.se/gpnycm.png)
+
 To Build:
 
 1. Get a copy of the Ren'Py SDK

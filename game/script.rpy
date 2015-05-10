@@ -1,7 +1,4 @@
 ﻿init python:
-   
-   import time
-   import json
    import os, sys
    sys.path.append(os.path.join(config.gamedir, "lib")) #set up path for main to use
    import main

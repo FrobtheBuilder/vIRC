@@ -20,6 +20,9 @@ init -1 python hide:
     config.screen_width = 800
     config.screen_height = 600
 
+    config.save_physical_size=False
+    config.gl_resize=False
+
     ## This controls the title of the window, when Ren'Py is
     ## running in a window.
 
@@ -29,6 +32,8 @@ init -1 python hide:
     # with tracebacks and other debugging logs.
     config.name = "vIRC"
     config.version = "0.0"
+
+    config.quit_action = Quit(confirm=False)
 
     #########################################
     # Themes
