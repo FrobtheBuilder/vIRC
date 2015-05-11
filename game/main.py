@@ -20,7 +20,6 @@ loop = None
 
 def event_loop(st, at, re):
    re.process_once(0.2)
-   #return Null(), 0.5
    return renpy.display.layout.Null(), 0.5
 
 def on_pubmsg(connection, event):
@@ -36,6 +35,7 @@ def load_images():
       imageinfo[tag]['ratio'] = imageinfo[tag]['size'][0]/imageinfo[tag]['size'][1]
 
       renpy.image(tag, renpy.display.im.Scale(fname, imageinfo[tag]['ratio']*550, 550))
+      imageinfo[tag]['scaled'] = renpy.display.im.Scale(fname, imageinfo[tag]['ratio']*550, 550)
 
 def initialize(r):
    global renpy
@@ -45,7 +45,7 @@ def initialize(r):
    config = renpy.config
 
    load_images()
-   
+
 
 def start():
    global reactor
